@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31313.381
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hello-module", "hello-module/hello-module.vcxproj", "{F5B9B1A3-A831-44D5-852D-3B46EC6D0015}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hello-module", "hello-module\hello-module.vcxproj", "{F5B9B1A3-A831-44D5-852D-3B46EC6D0015}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hello-partition", "hello-partition\hello-partition.vcxproj", "{C93D524B-D787-43DB-A446-578BEB722CEC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hello-header-import", "hello-header-import\hello-header-import.vcxproj", "{BE6D8696-8A36-4CE6-9451-34850558192E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,14 @@ Global
 		{C93D524B-D787-43DB-A446-578BEB722CEC}.Release|x64.Build.0 = Release|x64
 		{C93D524B-D787-43DB-A446-578BEB722CEC}.Release|x86.ActiveCfg = Release|Win32
 		{C93D524B-D787-43DB-A446-578BEB722CEC}.Release|x86.Build.0 = Release|Win32
+		{BE6D8696-8A36-4CE6-9451-34850558192E}.Debug|x64.ActiveCfg = Debug|x64
+		{BE6D8696-8A36-4CE6-9451-34850558192E}.Debug|x64.Build.0 = Debug|x64
+		{BE6D8696-8A36-4CE6-9451-34850558192E}.Debug|x86.ActiveCfg = Debug|Win32
+		{BE6D8696-8A36-4CE6-9451-34850558192E}.Debug|x86.Build.0 = Debug|Win32
+		{BE6D8696-8A36-4CE6-9451-34850558192E}.Release|x64.ActiveCfg = Release|x64
+		{BE6D8696-8A36-4CE6-9451-34850558192E}.Release|x64.Build.0 = Release|x64
+		{BE6D8696-8A36-4CE6-9451-34850558192E}.Release|x86.ActiveCfg = Release|Win32
+		{BE6D8696-8A36-4CE6-9451-34850558192E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

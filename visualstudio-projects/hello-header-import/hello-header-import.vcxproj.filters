@@ -15,14 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\hello-module\hello\hello.cxx">
+    <ClCompile Include="..\..\hello-header-import\hello\hello.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\hello-module\hello\main.cxx">
+    <ClCompile Include="..\..\hello-header-import\hello\main.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\hello-module\hello\hello.ixx">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\hello-header-import\hello\hello.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
