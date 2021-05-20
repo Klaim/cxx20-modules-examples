@@ -36,6 +36,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test-libhello-header-shared
 		{CBB7CABD-96F2-4A90-9E38-8EC0D9DB7329} = {CBB7CABD-96F2-4A90-9E38-8EC0D9DB7329}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hello-library-header-import", "hello-library-header-import\hello-library-header-import.vcxproj", "{4E9996DB-B9DA-4E6D-8B92-5E60A5B75188}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -116,6 +118,14 @@ Global
 		{8498E432-8622-411C-B4CA-2B61D65358B9}.Release|x64.Build.0 = Release|x64
 		{8498E432-8622-411C-B4CA-2B61D65358B9}.Release|x86.ActiveCfg = Release|Win32
 		{8498E432-8622-411C-B4CA-2B61D65358B9}.Release|x86.Build.0 = Release|Win32
+		{4E9996DB-B9DA-4E6D-8B92-5E60A5B75188}.Debug|x64.ActiveCfg = Debug|x64
+		{4E9996DB-B9DA-4E6D-8B92-5E60A5B75188}.Debug|x64.Build.0 = Debug|x64
+		{4E9996DB-B9DA-4E6D-8B92-5E60A5B75188}.Debug|x86.ActiveCfg = Debug|Win32
+		{4E9996DB-B9DA-4E6D-8B92-5E60A5B75188}.Debug|x86.Build.0 = Debug|Win32
+		{4E9996DB-B9DA-4E6D-8B92-5E60A5B75188}.Release|x64.ActiveCfg = Release|x64
+		{4E9996DB-B9DA-4E6D-8B92-5E60A5B75188}.Release|x64.Build.0 = Release|x64
+		{4E9996DB-B9DA-4E6D-8B92-5E60A5B75188}.Release|x86.ActiveCfg = Release|Win32
+		{4E9996DB-B9DA-4E6D-8B92-5E60A5B75188}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -129,6 +139,7 @@ Global
 		{FB278B19-29A3-41A3-895C-DE8048104F15} = {CE1B8A9E-B640-4F75-A8EC-2624A59C8BF1}
 		{C9513794-DE0B-4B9E-8C0A-44EA22EACC73} = {FB278B19-29A3-41A3-895C-DE8048104F15}
 		{8498E432-8622-411C-B4CA-2B61D65358B9} = {FB278B19-29A3-41A3-895C-DE8048104F15}
+		{4E9996DB-B9DA-4E6D-8B92-5E60A5B75188} = {CE1B8A9E-B640-4F75-A8EC-2624A59C8BF1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0D1677B7-4FBA-4940-9D45-F4365470E61C}

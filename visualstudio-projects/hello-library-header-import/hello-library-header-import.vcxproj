@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c93d524b-d787-43db-a446-578beb722cec}</ProjectGuid>
-    <RootNamespace>hellopartition</RootNamespace>
+    <ProjectGuid>{4e9996db-b9da-4e6d-8b92-5e60a5b75188}</ProjectGuid>
+    <RootNamespace>hellolibraryheaderimport</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -88,10 +88,10 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
-      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
+      <AdditionalOptions>-DLIBHELLO_STATIC %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -106,10 +106,10 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
-      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
+      <AdditionalOptions>-DLIBHELLO_STATIC %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -124,10 +124,10 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
-      <UseStandardPreprocessor>true</UseStandardPreprocessor>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
+      <AdditionalOptions>-DLIBHELLO_STATIC %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -142,10 +142,10 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
-      <UseStandardPreprocessor>true</UseStandardPreprocessor>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
+      <AdditionalOptions>-DLIBHELLO_STATIC %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -155,18 +155,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\hello-partition\hello\hello.cxx" />
-    <ClCompile Include="..\..\hello-partition\hello\main.cxx" />
+    <ProjectReference Include="..\libhello-format-header\libhello-format-header.vcxproj">
+      <Project>{cbb7cabd-96f2-4a90-9e38-8ec0d9db7329}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\libhello-header\libhello-header-static.vcxproj">
+      <Project>{75e21b3a-c0ae-40fa-bbdb-c44d4e24d709}</Project>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\hello-partition\hello\hello-format.ixx" />
-    <ClCompile Include="..\..\hello-partition\hello\hello-printer.cxx">
-      <ScanSourceForModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ScanSourceForModuleDependencies>
-      <ScanSourceForModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ScanSourceForModuleDependencies>
-    </ClCompile>
-    <ClCompile Include="..\..\hello-partition\hello\hello.ixx">
-      <FileType>Document</FileType>
-    </ClCompile>
+    <ClCompile Include="..\..\hello-library-header\hello-library-header-import\hello\main.cxx" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
