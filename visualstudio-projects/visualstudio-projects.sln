@@ -46,6 +46,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libhello-format-module", "l
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test-libhello-format-module", "test-libhello-format-module\test-libhello-format-module.vcxproj", "{5C2D148F-EEAB-401B-B95B-36C662A3985C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libhello-module", "libhello-module\libhello-module.vcxproj", "{2EFF48A2-B33C-4AB6-B5CF-662771855A25}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test-libhello-module", "test-libhello-module\test-libhello-module.vcxproj", "{69F6C5AC-C447-4568-80BD-3AA4479EAC68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -158,6 +162,22 @@ Global
 		{5C2D148F-EEAB-401B-B95B-36C662A3985C}.Release|x64.Build.0 = Release|x64
 		{5C2D148F-EEAB-401B-B95B-36C662A3985C}.Release|x86.ActiveCfg = Release|Win32
 		{5C2D148F-EEAB-401B-B95B-36C662A3985C}.Release|x86.Build.0 = Release|Win32
+		{2EFF48A2-B33C-4AB6-B5CF-662771855A25}.Debug|x64.ActiveCfg = Debug|x64
+		{2EFF48A2-B33C-4AB6-B5CF-662771855A25}.Debug|x64.Build.0 = Debug|x64
+		{2EFF48A2-B33C-4AB6-B5CF-662771855A25}.Debug|x86.ActiveCfg = Debug|Win32
+		{2EFF48A2-B33C-4AB6-B5CF-662771855A25}.Debug|x86.Build.0 = Debug|Win32
+		{2EFF48A2-B33C-4AB6-B5CF-662771855A25}.Release|x64.ActiveCfg = Release|x64
+		{2EFF48A2-B33C-4AB6-B5CF-662771855A25}.Release|x64.Build.0 = Release|x64
+		{2EFF48A2-B33C-4AB6-B5CF-662771855A25}.Release|x86.ActiveCfg = Release|Win32
+		{2EFF48A2-B33C-4AB6-B5CF-662771855A25}.Release|x86.Build.0 = Release|Win32
+		{69F6C5AC-C447-4568-80BD-3AA4479EAC68}.Debug|x64.ActiveCfg = Debug|x64
+		{69F6C5AC-C447-4568-80BD-3AA4479EAC68}.Debug|x64.Build.0 = Debug|x64
+		{69F6C5AC-C447-4568-80BD-3AA4479EAC68}.Debug|x86.ActiveCfg = Debug|Win32
+		{69F6C5AC-C447-4568-80BD-3AA4479EAC68}.Debug|x86.Build.0 = Debug|Win32
+		{69F6C5AC-C447-4568-80BD-3AA4479EAC68}.Release|x64.ActiveCfg = Release|x64
+		{69F6C5AC-C447-4568-80BD-3AA4479EAC68}.Release|x64.Build.0 = Release|x64
+		{69F6C5AC-C447-4568-80BD-3AA4479EAC68}.Release|x86.ActiveCfg = Release|Win32
+		{69F6C5AC-C447-4568-80BD-3AA4479EAC68}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -175,6 +195,8 @@ Global
 		{51A9CAE8-13B2-41DB-920C-6FEF24F4FF41} = {CE1B8A9E-B640-4F75-A8EC-2624A59C8BF1}
 		{AB4B4B00-BB52-40D7-9FE5-4345CF81F467} = {8F67190C-45AA-4229-A15E-4ED79DE15645}
 		{5C2D148F-EEAB-401B-B95B-36C662A3985C} = {8F67190C-45AA-4229-A15E-4ED79DE15645}
+		{2EFF48A2-B33C-4AB6-B5CF-662771855A25} = {8F67190C-45AA-4229-A15E-4ED79DE15645}
+		{69F6C5AC-C447-4568-80BD-3AA4479EAC68} = {8F67190C-45AA-4229-A15E-4ED79DE15645}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0D1677B7-4FBA-4940-9D45-F4365470E61C}
