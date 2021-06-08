@@ -163,6 +163,7 @@
     <ClCompile Include="..\..\hello-partition\hello\hello-printer.cxx">
       <ScanSourceForModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ScanSourceForModuleDependencies>
       <ScanSourceForModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ScanSourceForModuleDependencies>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCppModuleInternalPartition</CompileAs>
     </ClCompile>
     <ClCompile Include="..\..\hello-partition\hello\hello.ixx">
       <FileType>Document</FileType>
