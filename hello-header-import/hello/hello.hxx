@@ -1,10 +1,10 @@
 #pragma once
 
-#if 0 // GCC bug 99380
+//#if 0 // GCC bug 99380
 import <string_view>;
-#else
-#include <string_view>
-#endif
+//#else
+//#include <string_view>
+//#endif
 
 namespace hello
 {

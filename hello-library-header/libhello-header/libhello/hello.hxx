@@ -6,9 +6,12 @@
 #include <libhello/check.hxx>         // Export hello::check_hello()
 #include <libhello-format/format.hxx> // Re-export hello::format_hello()
 
+
+#include <libhello/export.hxx>
+
 namespace hello
 {
-  void
+  LIBHELLO_SYMEXPORT void
   say_hello (std::ostream&, const std::string_view& name);
 }
 
