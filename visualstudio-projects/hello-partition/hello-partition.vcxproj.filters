@@ -21,13 +21,13 @@
     <ClCompile Include="..\..\hello-partition\hello\main.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\hello-partition\hello\hello.ixx">
+    <ClCompile Include="..\..\hello-partition\hello\hello.mxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\hello-partition\hello\hello-format.ixx">
+    <ClCompile Include="..\..\hello-partition\hello\hello-format.mxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\hello-partition\hello\hello-printer.cxx">
+    <ClCompile Include="..\..\hello-partition\hello\hello-printer.mxx">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -18,10 +18,10 @@
     <ClCompile Include="..\..\hello-library-module\libhello-module\libhello\hello.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\hello-library-module\libhello-module\libhello\hello.ixx">
+    <ClCompile Include="..\..\hello-library-module\libhello-module\libhello\hello.mxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\hello-library-module\libhello-module\libhello\check.ixx">
+    <ClCompile Include="..\..\hello-library-module\libhello-module\libhello\check.mxx">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\hello-library-module\libhello-format-module\libhello-format\format.ixx">
+    <ClCompile Include="..\..\hello-library-module\libhello-format-module\libhello-format\format.mxx">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

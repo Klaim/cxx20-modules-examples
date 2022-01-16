@@ -21,6 +21,9 @@
     <ClInclude Include="..\..\hello-library-header\libhello-header\libhello\hello.hxx">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\hello-library-header\libhello-header\libhello\export.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\hello-library-header\libhello-header\libhello\hello.cxx">

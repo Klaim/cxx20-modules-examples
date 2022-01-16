@@ -21,7 +21,7 @@
     <ClCompile Include="..\..\hello-module\hello\main.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\hello-module\hello\hello.ixx">
+    <ClCompile Include="..\..\hello-module\hello\hello.mxx">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
