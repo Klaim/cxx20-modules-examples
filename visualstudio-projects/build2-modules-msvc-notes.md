@@ -32,7 +32,7 @@ Tell me if that's not enough to deduce some information. Maybe you want the .jso
 ## Overview
 
 - All the projects are set with `/std:c++20`, not with `/std:c++lastest` to avoid interference from WIP features.
-- Flags identifying C++ source files (replacing `/TC` and `/TP` in the case of module files):
+- Flags identifying C++ source files (~~replacing `/TC` and `/TP` in the case of module files~~ in addition to `/TC` and `/TP` - correction from 2022-04-19):
     - Module interface files (with `export module mymodule;` ) must compile with `/interface`. I did not find it in the doc (it still refers to `/experimental:module` etc.).
     - Module partions (both private or interface - with `export module mymodule:mypartition;` or `module mymodule:mypartition`) must compile with `/internalPartition` (see the `hello-partition` case). Not in the doc either yet.
     - Module interface partitions (with `export module mymodule:mypartition;`) can also compile with `/interface` (see `hello-partition` case).
