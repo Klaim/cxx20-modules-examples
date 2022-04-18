@@ -1,5 +1,16 @@
 
 
+# 2022-04-19
+
+Microsoft finally documented some of the flags where documentation was missing ([source](https://lists.isocpp.org/sg15/2022/04/1351.php)):
+
+- `/interface`: https://docs.microsoft.com/en-us/cpp/build/reference/interface?view=msvc-170
+- `/interfacePartition`: https://docs.microsoft.com/en-us/cpp/build/reference/internal-partition?view=msvc-170
+
+Take this in consideration when reading the rest below.
+
+Also they pointed [this document](https://lists.isocpp.org/sg15/att-1346/C___20_Modules_Build_in_Visual_Studio.pdf) ([source](https://lists.isocpp.org/sg15/2022/04/1346.php))
+
 # 2022-01-16
 
 I found some time to work on the msvc module support.
