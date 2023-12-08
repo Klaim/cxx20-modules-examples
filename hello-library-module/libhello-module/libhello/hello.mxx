@@ -1,3 +1,6 @@
+module;
+#include "someheader.hpp"
+
 export module hello;
 
 import std;
